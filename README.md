@@ -11,10 +11,10 @@ I have been tasked with finding out alternative machine learning approaches to f
 The issue, as usual, is the data. The images available to our team are micrographs, these are basically images that someone painstakingly took. Naturally this involves a lot of man-hours and resources. Bottom line, we gotta work with what we have for now!
 
 Steps I'm going to take:
-  -S1. Data augmentation
-  -S2. Try other models using transfer learning
-  -S3. Try to come up with models that could capture the essence
-  -S4. Maybe try running more number of epochs on the existing Transfer Learning sheet?
+-S1. Data augmentation
+-S2. Try other models using transfer learning
+-S3. Try to come up with models that could capture the essence
+-S4. Maybe try running more number of epochs on the existing Transfer Learning sheet?
   
   
   S4. Increasing epochs on the Transfer Learning notebook.
