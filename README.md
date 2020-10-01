@@ -18,12 +18,10 @@ Steps I'm going to take:
   
   
 ## S4. Increasing epochs on the Transfer Learning notebook.
-          
-          I increased the number of epochs from 5 to 10. The training accuracy improved from 75 to 92.7, this isn't really an accurate measure since we have only about 103 images of our positive class, which is not enough by any standard. I also should probably ask, why they stopped at 5 epochs lol.
+I increased the number of epochs from 5 to 10. The training accuracy improved from 75 to 92.7, this isn't really an accurate measure since we have only about 103 images of our positive class, which is not enough by any standard. I also should probably ask, why they stopped at 5 epochs lol.
           
 ## S1. Data Augmentation
-
-          Data augmentation stored in the data_aug.py file, has the same model including all the parameters, characteristics etc. Except for the ImageDataGenerator, which has extra paramters for augmentation. I've included all the different kinds of augmentations possible except for _shear_range_.
+Data augmentation stored in the data_aug.py file, has the same model including all the parameters, characteristics etc. Except for the ImageDataGenerator, which has extra paramters for augmentation. I've included all the different kinds of augmentations possible except for _shear_range_.
   
   
  Note:
