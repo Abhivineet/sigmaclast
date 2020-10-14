@@ -26,3 +26,12 @@ Data augmentation stored in the data_aug.py file, has the same model including a
   
  Note:
   I am not a geologist, or a person who has a lot of experience with the field. I did some reading up on these topics, but apart from that my process is purely based on visual identificiation of differences between the two classes and to use my experience in machine learning to come up with a solution
+  
+  
+###  14 October 2020
+
+Updates on the project:
+  1. Received a better dataset in terms of quality. However, I've noticed some of the images have some sort of annotation/label on them. I wonder how it will affect the model though.
+  2. Ran the old model on the improved dataset with 3 classes (CW, CCW, Without_Sigma). I didn't change anything but give the augmentation parameters. It resulted in a 68% training accuracy. This don't mean much if we don't get a proper training set
+  3. How to test the model? Do we break the the data into a couple of segments?
+  4. 
