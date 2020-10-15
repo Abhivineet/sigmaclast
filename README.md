@@ -34,4 +34,5 @@ Updates on the project:
   1. Received a better dataset in terms of quality. However, I've noticed some of the images have some sort of annotation/label on them. I wonder how it will affect the model though.
   2. Ran the old model on the improved dataset with 3 classes (CW, CCW, Without_Sigma). I didn't change anything but give the augmentation parameters. It resulted in a 68% training accuracy. This don't mean much if we don't get a proper training set
   3. How to test the model? Do we break the the data into a couple of segments?
-  4. 
+  4. Since the ResNet50 is trained on RGB images, it's not simple to just create a grayscale image and feed it to the model
+  5. I tried another thing of clubbing the data into 2 classes, namely: Clast and No_Clast. 
