@@ -36,3 +36,10 @@ Updates on the project:
   3. How to test the model? Do we break the the data into a couple of segments?
   4. Since the ResNet50 is trained on RGB images, it's not simple to just create a grayscale image and feed it to the model
   5. I tried another thing of clubbing the data into 2 classes, namely: Clast and No_Clast. 
+
+###  15 October 2020
+
+Updates on the project:
+  1. Tried an Occams Razor solution to the problem. Failed miserably. A glorius guesser basically.
+  2. Understanding how ImageDataGenerator works could be a gift to this project and all of humanity.
+  3. Try to read more literature about stuff that deals with CNNs and shear stress maybe?
