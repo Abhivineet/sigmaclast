@@ -22,8 +22,7 @@ model.compile(loss=keras.losses.categorical_crossentropy,
 
 model.summary()
 
-
-folder_path = '/Users/abhivineet/PycharmProjects/sigmaclast/data2'
+folder_path = '/Users/abhivineet/PycharmProjects/datasets/sigmaclast/data2'
 train_datagen=ImageDataGenerator(preprocessing_function=preprocess_input, rotation_range=180, width_shift_range=0.3, height_shift_range=0.3, rescale=1./255, zoom_range=0.4, horizontal_flip=True, vertical_flip=True, fill_mode='reflect')
 
 train_generator=train_datagen.flow_from_directory(folder_path,
