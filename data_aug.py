@@ -17,7 +17,7 @@
 # plt.show()
 
 
-folder_path = '/Users/abhivineet/PycharmProjects/sigmaclast/data/'
+folder_path = '/Users/abhivineet/PycharmProjects/sigmaclast/data2'
 
 import pandas as pd
 import numpy as np
@@ -67,3 +67,4 @@ step_size_train=train_generator.n//train_generator.batch_size
 model.fit_generator(generator=train_generator,
                    steps_per_epoch=step_size_train,
                    epochs=5)
+model.save('model_transResNet50.h5')
