@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91756c39-847e-4592-bb8e-6f510ca353ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sigmaclast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sigmaclast.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_aug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
