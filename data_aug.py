@@ -17,7 +17,7 @@
 # plt.show()
 
 
-folder_path = '/Users/abhivineet/PycharmProjects/sigmaclast/data2'
+folder_path = '/Users/abhivineet/PycharmProjects/datasets/sigmaclast/data2'
 
 import pandas as pd
 import numpy as np
@@ -50,7 +50,7 @@ for i,layer in enumerate(model.layers):
   print(i,layer.name)
 
 
-train_datagen=ImageDataGenerator(preprocessing_function=preprocess_input, rotation_range=180, width_shift_range=0.3, height_shift_range=0.3, rescale=1./255, zoom_range=0.4, horizontal_flip=True, vertical_flip=True, fill_mode='reflect')
+train_datagen=ImageDataGenerator(preprocessing_function=preprocess_input, rotation_range=180, width_shift_range=0.3, height_shift_range=0.3, rescale=1./255, zoom_range=0.4, horizontal_flip=True, vertical_flip=True, fill_mode='reflect', validation_split=0.1)
 
 train_generator=train_datagen.flow_from_directory(folder_path,
                                                  target_size=(224,224),
@@ -58,13 +58,21 @@ train_generator=train_datagen.flow_from_directory(folder_path,
                                                  batch_size=32,
                                                  class_mode='categorical',
                                                  shuffle=True)
-
+val_generator = train_datagen.flow_from_directory(folder_path,
+                                                  target_size=(224,224),
+                                                  color_mode='rgb',
+                                                  batch_size=32,
+                                                  class_mode='categorical',
+                                                  subset='validation')
 
 model.compile(optimizer='Adam',loss='categorical_crossentropy',metrics=['accuracy'])
 
 
-step_size_train=train_generator.n//train_generator.batch_size
+train_steps=train_generator.n//train_generator.batch_size
+val_steps=val_generator.n//train_generator.batch_size
 model.fit_generator(generator=train_generator,
-                   steps_per_epoch=step_size_train,
-                   epochs=5)
-model.save('model_transResNet50.h5')
+                    steps_per_epoch=train_steps,
+                    epochs=10,
+                    validation_data=val_generator)
+
+# model.save('model_transResNet50.h5')
