@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91756c39-847e-4592-bb8e-6f510ca353ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_aug.py" afterDir="false" />
-    </list>
+    <list default="true" id="91756c39-847e-4592-bb8e-6f510ca353ec" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -46,7 +45,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_aug">
+  <component name="RunManager" selected="Python.occam">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="sigmaclast" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_aug" />
         <item itemvalue="Python.occam" />
+        <item itemvalue="Python.data_aug" />
         <item itemvalue="Python.test_img" />
       </list>
     </recent_temporary>
@@ -160,6 +159,9 @@
       <workItem from="1602808182004" duration="198000" />
       <workItem from="1602826678074" duration="6031000" />
       <workItem from="1603408205690" duration="3999000" />
+      <workItem from="1603936191599" duration="1047000" />
+      <workItem from="1604279106280" duration="16000" />
+      <workItem from="1604359459879" duration="301000" />
     </task>
     <servers />
   </component>
@@ -167,42 +169,42 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="164" key="GridCell.Tab.0.bottom" timestamp="1603411732266">
+    <state width="1238" height="164" key="GridCell.Tab.0.bottom" timestamp="1604085921031">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="327" key="GridCell.Tab.0.bottom/0.23.1280.777/0.-745.1366.745@0.23.1280.777" timestamp="1601534583809" />
-    <state width="1238" height="164" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1603411732266" />
-    <state width="1238" height="164" key="GridCell.Tab.0.center" timestamp="1603411732265">
+    <state width="1238" height="164" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1604085921031" />
+    <state width="1238" height="164" key="GridCell.Tab.0.center" timestamp="1604085921030">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="327" key="GridCell.Tab.0.center/0.23.1280.777/0.-745.1366.745@0.23.1280.777" timestamp="1601534583808" />
-    <state width="1238" height="164" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1603411732265" />
-    <state width="1238" height="164" key="GridCell.Tab.0.left" timestamp="1603411732264">
+    <state width="1238" height="164" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1604085921030" />
+    <state width="1238" height="164" key="GridCell.Tab.0.left" timestamp="1604085921030">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="327" key="GridCell.Tab.0.left/0.23.1280.777/0.-745.1366.745@0.23.1280.777" timestamp="1601534583808" />
-    <state width="1238" height="164" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1603411732264" />
-    <state width="1238" height="164" key="GridCell.Tab.0.right" timestamp="1603411732265">
+    <state width="1238" height="164" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1604085921030" />
+    <state width="1238" height="164" key="GridCell.Tab.0.right" timestamp="1604085921031">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="327" key="GridCell.Tab.0.right/0.23.1280.777/0.-745.1366.745@0.23.1280.777" timestamp="1601534583809" />
-    <state width="1238" height="164" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1603411732265" />
-    <state width="1238" height="233" key="GridCell.Tab.1.bottom" timestamp="1603408288655">
+    <state width="1238" height="164" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1604085921031" />
+    <state width="1238" height="233" key="GridCell.Tab.1.bottom" timestamp="1603442714433">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1603408288655" />
-    <state width="1238" height="233" key="GridCell.Tab.1.center" timestamp="1603408288653">
+    <state width="1238" height="233" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1603442714433" />
+    <state width="1238" height="233" key="GridCell.Tab.1.center" timestamp="1603442714433">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1603408288653" />
-    <state width="1238" height="233" key="GridCell.Tab.1.left" timestamp="1603408288653">
+    <state width="1238" height="233" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1603442714433" />
+    <state width="1238" height="233" key="GridCell.Tab.1.left" timestamp="1603442714432">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1603408288653" />
-    <state width="1238" height="233" key="GridCell.Tab.1.right" timestamp="1603408288654">
+    <state width="1238" height="233" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1603442714432" />
+    <state width="1238" height="233" key="GridCell.Tab.1.right" timestamp="1603442714433">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1603408288654" />
+    <state width="1238" height="233" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1603442714433" />
     <state x="141" y="54" key="SettingsEditor" timestamp="1601525346167">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -219,7 +221,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sigmaclast$test_img.coverage" NAME="test_img Coverage Results" MODIFIED="1602827969215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sigmaclast$data_aug.coverage" NAME="data_aug Coverage Results" MODIFIED="1603411732241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sigmaclast$occam.coverage" NAME="occam Coverage Results" MODIFIED="1603408284212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sigmaclast$data_aug.coverage" NAME="data_aug Coverage Results" MODIFIED="1603424744095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sigmaclast$occam.coverage" NAME="occam Coverage Results" MODIFIED="1603936385812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

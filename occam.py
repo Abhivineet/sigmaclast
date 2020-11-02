@@ -35,5 +35,5 @@ train_generator=train_datagen.flow_from_directory(folder_path,
 step_size_train=train_generator.n//train_generator.batch_size
 model.fit_generator(generator=train_generator,
                    steps_per_epoch=step_size_train,
-                   epochs=20)
-model.save('model_occamConv.h5')
+                   epochs=50)
+# model.save('model_occamConv.h5')
