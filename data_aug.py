@@ -74,5 +74,9 @@ model.fit_generator(generator=train_generator,
                     steps_per_epoch=train_steps,
                     epochs=10,
                     validation_data=val_generator)
+
+# true_classes = val_generator.classes
+# class_labels = list(val_generator.class_indices.keys())
+
 # ACCURACY OF 50% LOL
 # model.save('model_transResNet50.h5')
