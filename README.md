@@ -43,3 +43,12 @@ Updates on the project:
   1. Tried an Occams Razor solution to the problem. Failed miserably. A glorius guesser basically.
   2. Understanding how ImageDataGenerator works could be a gift to this project and all of humanity.
   3. Try to read more literature about stuff that deals with CNNs and shear stress maybe?
+  
+  
+### Last Week of October to First Week of November
+
+Updates on the project:
+  1. Progress has been slow since people are (read: I am) busy with course work and submissions.
+  2. I included a validation parameter to the ResNet50 model on Wael's suggestion, it gave around 50% accuracy on the validation data (yep that)
+  3. On mentioning this to Gurman he said that when he and his team tested on an ensemble of VGG Resnet Inception and got an accuracy of 78 or so and showed me confusion matrices etc.
+  4. I asked him what data did they test it on? Did they test it on data that the model had seen?
